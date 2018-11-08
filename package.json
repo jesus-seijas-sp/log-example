@@ -1,0 +1,17 @@
+{
+  "name": "log-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "lint": "tslint -t stylish --project \"tsconfig.json\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.12.3",
+    "log-decorator-ts": "^1.0.0",
+    "reflect-metadata": "^0.1.12"
+  }
+}
